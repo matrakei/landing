@@ -2,23 +2,37 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px 8%;
-  gap: 40px;
+  padding: 60px 0;   
+  background: #f9f9f9;
 }
 
-.about h2 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.about p {
+.about-text {
   flex: 1;
+  max-width: 600px;
+  padding-left: 8%;  
+}
+
+.about-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top  : 0;
+}
+
+.about-text p {
   font-size: 16px;
   color: #444;
+  line-height: 1.6;
 }
 
-.about img {
+.about-image {
   flex: 1;
-  max-width: 300px;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px; 
+  margin: 0;
+  display: block;
 }

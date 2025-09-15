@@ -1,44 +1,63 @@
-/* Navbar.css */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 8%;
   background: #fff;
-  border-bottom: 2px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.navbar-left {
+  flex: 1; 
 }
 
 .navbar-logo {
-  height: 28px; /* ajustá según tu logo */
+  height: 26px;
+}
+
+.navbar-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  background: #e5e5e5;   
+  border-radius: 999px;
+  padding: 6px 20px;
 }
 
 .nav-links {
   display: flex;
-  gap: 12px;
-  align-items: center;
-}
-
-.nav-links li {
+  gap: 20px;
   list-style: none;
 }
 
-.nav-links a {
+.nav-links li a {
   text-decoration: none;
   color: #111;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
-  background: #e5e5e5;
-  padding: 8px 16px;
-  border-radius: 20px;   /* hace el efecto pill */
-  transition: background 0.3s;
+  padding: 8px 8px;
+  border-radius: 999px;
 }
 
 .nav-links a:hover {
   background: #d0d0d0;
 }
 
-/* Diferencia el botón Registrarse */
-.nav-links .register-btn {
-  background: #e5e5e5;
+.navbar-right {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.register-btn {
+  text-decoration: none;
+  color: #111;
   font-weight: 700;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.register-btn:hover {
+  background: #c9c9c9;
 }

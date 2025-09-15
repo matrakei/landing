@@ -1,6 +1,7 @@
 import logo from "../assets/Logo zwap.png"; 
 import "./Hero.css";
-import casa from "../assets/casapileta.png";
+import casa from "../assets/acsac.png";
+
 
 function Hero() {
   return (
