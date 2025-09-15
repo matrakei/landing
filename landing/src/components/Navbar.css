@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8%;
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+}
+
+.navbar-logo {
+  height: 28px; /* ajustá según tu logo */
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  font-size: 14px;
+  background: #e5e5e5;
+  padding: 8px 16px;
+  border-radius: 20px;   /* hace el efecto pill */
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: #d0d0d0;
+}
+
+/* Diferencia el botón Registrarse */
+.nav-links .register-btn {
+  background: #e5e5e5;
+  font-weight: 700;
+}

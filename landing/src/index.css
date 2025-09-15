@@ -1,0 +1,288 @@
+/* Importar tipografía Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #00b3b3;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links li a {
+  font-weight: 500;
+  color: #111;
+}
+
+.nav-links .btn {
+  background: #111;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links .btn:hover {
+  background: #333;
+}
+
+/* ---------------- HERO ---------------- */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  background: #fff;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text span {
+  font-size: 16px;
+  color: #111;
+}
+
+.hero-text strong {
+  color: #00b3b3;
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 20px 0;
+  line-height: 1.3;
+}
+
+.hero-text .btn {
+  background: #111;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ---------------- COUNTDOWN ---------------- */
+.countdown {
+  text-align: center;
+  padding: 30px 0;
+  background: #f4f4f4;
+}
+
+.countdown h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.countdown .time {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* ---------------- ABOUT ---------------- */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  gap: 40px;
+}
+
+.about h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 15px;
+  color: #444;
+  max-width: 600px;
+}
+
+.about img {
+  max-width: 260px;
+}
+
+/* ---------------- HOW IT WORKS ---------------- */
+.how {
+  padding: 60px 8%;
+  background: #fff;
+}
+
+.how h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+.step {
+  text-align: center;
+  padding: 20px;
+}
+
+.step h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* ---------------- FAQ + SUBSCRIBE ---------------- */
+.faq-subscribe {
+  padding: 60px 8%;
+}
+
+.faq {
+  margin-bottom: 50px;
+}
+
+.faq h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.faq p {
+  color: #555;
+}
+
+.subscribe {
+  background: #00b3b3;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.subscribe h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscribe p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  width: 280px;
+}
+
+.subscribe button {
+  background: #111;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe button:hover {
+  background: #333;
+}
+
+/* ---------------- FOOTER ---------------- */
+.footer {
+  background: #d9f1f1;
+  padding: 50px 8%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer .logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #00b3b3;
+}
+
+.footer p {
+  max-width: 280px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-links {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-links ul li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}

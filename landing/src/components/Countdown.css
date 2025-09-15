@@ -1,0 +1,17 @@
+.countdown {
+  text-align: center;
+  padding: 40px 0;
+  background: #eee;
+}
+
+.countdown h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.countdown .time {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
