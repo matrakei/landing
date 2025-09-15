@@ -1,10 +1,14 @@
 import "./Footer.css";
+import logo from "../assets/Logo zwap.png";
 
 function Footer() {
   return (
     <footer className="footer">
-      <div className="logo">Zwap</div>
-      <p>No te limites a una nueva experiencia.</p>
+      <div className="footer-brand">
+        <img src={logo} alt="Zwap logo" className="footer-logo" />
+        <p>No te limites a una nueva experiencia.</p>
+      </div>
+
       <div className="footer-links">
         <div>
           <h4>Navegar</h4>

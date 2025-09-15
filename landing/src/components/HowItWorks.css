@@ -1,29 +1,76 @@
 .how {
   padding: 60px 8%;
   background: #fff;
+  text-align: center;
 }
 
 .how h2 {
-  text-align: center;
   font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #444;
   margin-bottom: 40px;
 }
 
-.steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
+.diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.row.center {
+  justify-content: center;
 }
 
 .step {
-  background: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
+  max-width: 250px;
   text-align: center;
-  border: 1px solid #ddd;
+}
+
+.step img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 12px;
 }
 
 .step h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.step p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.arrow {
+  width: 80px;
+  height: auto;
+}
+
+.row.arrows {
+  gap: 400px;
+}
+
+.arrow.down {
+  width: 15px;
+  height: auto;
+}
+
+.arrow.diagonal {
+  width: 80px;
+  height: auto;
 }

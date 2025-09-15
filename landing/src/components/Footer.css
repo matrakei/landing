@@ -7,15 +7,17 @@
   gap: 40px;
 }
 
-.footer .logo {
-  font-size: 28px;
-  font-weight: 700;
-  color: #00b3b3;
+.footer-brand {
+  max-width: 250px;
+}
+
+.footer-logo {
+  width: 160px;  /* 👈 tamaño grande del logo */
+  height: auto;
   margin-bottom: 10px;
 }
 
 .footer p {
-  max-width: 250px;
   font-size: 14px;
   color: #333;
 }
