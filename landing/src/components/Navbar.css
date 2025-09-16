@@ -1,5 +1,5 @@
 .navbar {
-  background: #fff;
+  background: #FFF;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,7 @@
   flex: 2;
   display: flex;
   justify-content: center;
-  background: #e5e5e5;   
+  background: #A9C9CE;   
   border-radius: 999px;
   padding: 6px 20px;
 }
@@ -39,7 +39,7 @@
 }
 
 .nav-links a:hover {
-  background: #d0d0d0;
+  background: #78a5a7;
 }
 
 .navbar-right {
@@ -55,9 +55,9 @@
   font-size: 14px;
   padding: 8px 16px;
   border-radius: 999px;
-  background: #d9d9d9;
+  background: #A9C9CE;
 }
 
 .register-btn:hover {
-  background: #c9c9c9;
+  background: #78a5a7;
 }

@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #d9d9d9;
+  background: #39B3B8;
   padding: 30px 40px;
   width: 100%;
   position: relative;
@@ -43,7 +43,7 @@
 }
 
 .faq-card {
-  background: #ACACAC;
+  background: #62B8BC;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
@@ -100,7 +100,7 @@
 
 /* Suscripción */
 .subscribe {
-  background: #00b3b3;
+  background: #1CA8B4;
   padding: 40px;
   border-radius: 15px;
   text-align: center;
@@ -126,8 +126,7 @@
 
 .subscribe input {
   padding: 10px;
-  border: none;
-  border-radius: 6px;
+  border-radius: 999px;
   width: 250px;
 }
 
@@ -135,8 +134,7 @@
   background: #222;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 6px;
-  border: none;
+  border-radius: 999px;
   cursor: pointer;
   font-weight: 600;
 }
